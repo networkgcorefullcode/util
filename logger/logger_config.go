@@ -30,6 +30,7 @@ type Logger struct {
 	NWDAF  *LogSetting `yaml:"NWDAF"`
 	WEBUI  *LogSetting `yaml:"WEBUI"`
 	SCTPLB *LogSetting `yaml:"SCTPLB"`
+	SSM    *LogSetting `yaml:"SSM"`
 
 	Util                         *LogSetting `yaml:"Util"`
 	MongoDBLibrary               *LogSetting `yaml:"MongoDBLibrary"`
